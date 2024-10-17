@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char a[200];
+    printf("Enter the sentence");
+    gets(a);
+    int count=0;
+    int len=strlen(a);
+    for(int i=0;i<len;i++)
+    {
+        if(a[i]==' ')
+            count=count+1;
+    }
+    printf("The number of words is %d",count+1);
+}
+
+
+output:
+nter the sentencedfkjg dlgheuoig
+The number of wordsáisá2
+Process returned 24 (0x18)   execution time : 2.636 s
+Press any key to continue.
